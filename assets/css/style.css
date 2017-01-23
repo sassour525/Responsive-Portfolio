@@ -1,0 +1,204 @@
+/*general styles to ensure base elements span the whole page*/
+html, body {
+
+	color: #777777;
+	background: url("../images/bg-img.png");
+	font-family:'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+
+}
+
+/*header styles*/
+h1, h2, h3, h4, h5 {
+
+	font-family:'Georgia', 'Times', 'Times New Roman', 'serif';
+	color: #4aaaa5;
+
+}
+
+/*remove hidden border spacing*/
+div, header, nav, footer {
+	box-sizing: border-box;
+}
+
+/*div wrapper - used to keep content a specific width allowing other elemetns to span the whole page*/
+.wrapper {
+
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+/*div header-nav*/
+header {
+
+	background-color: #ffffff;
+	border-bottom: solid;
+	border-color: #cccccc;
+	margin-bottom: 20px;
+
+}
+
+/*outline images using this class when mouse hovers over*/
+.hover-outline:hover {
+  outline: 5px solid gray;
+  outline-offset: 10px;
+}
+
+
+/*div content*/
+.content {
+
+	width: 650px;
+	background-color: #ffffff;
+	border: 1px solid;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border-color: #cccccc;
+/*	max-height: auto;
+	overflow: auto;*/
+}
+
+/*div connect w/ me*/
+.connect {
+
+	width: 270px;
+	background-color: #ffffff;
+	text-align: center;
+	border: thin solid;
+	float: left;
+	margin-left: 20px;
+	padding: 10px;
+	border-color: #cccccc;
+}
+
+/*headshot image*/
+#headshot {
+
+	float: left;
+	margin: 20px;
+}
+
+/*div footer*/
+footer {
+	
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+	padding: 5px;
+	border-top: thick solid;
+	border-color: #4aaaa5;
+	color: #cccccc;
+	position: absolute;
+    bottom:0;
+    width: 100%;
+
+}
+
+/*edit footer when content is too long for the page*/
+footer.withScroll {
+
+	position: inherit;
+}
+
+/*text style for header*/
+.header-text {
+
+	background-color: #4aaaa5;
+	color: white;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin: 0;
+}
+
+/*styles for the nav links in the header*/
+nav a{
+	
+	display: inline-block;
+	text-decoration: none;
+	color: #777777;
+
+
+}
+
+/*used to align/seperate "header" to left side of screen*/
+.left {
+
+	width: 478px;
+	text-align: left;
+	display: inline-block;
+}
+
+/*used to align/seperate "header" to right side of screen*/
+.right {
+
+	width: 477px;
+	text-align: right;
+	display: inline-block;
+}
+
+/*portfolio image layout / location*/
+.img-txt-1 {
+
+	display: inline-block;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/*inner text within portfolio images*/
+.img-txt-1 span {
+
+	position: absolute;
+	top: 75%;
+    left: 50%;
+    margin-top: -1em;
+    margin-left: -50%;
+    width: 100%;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Georgia'
+}
+
+/*set width and height for socail media images*/
+.connect-image img {
+
+	width: 50px;
+	height: 50px;
+
+}
+
+
+/*make input span entire content div*/
+input, textarea {
+
+	width: 100%;
+
+}
+
+
+/*style submit button on contact form*/
+button {
+
+	background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12pt;
+
+}
