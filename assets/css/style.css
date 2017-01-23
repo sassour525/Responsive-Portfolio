@@ -202,3 +202,150 @@ button {
     font-size: 12pt;
 
 }
+
+/*(reponsive) resize when on screen with max width 980px*/
+@media screen and (max-width: 980px) {
+	
+	html,
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.wrapper {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+	.right {
+		text-align: right;
+	    display: inline-block;
+	    margin-left: 61px;
+	    width: auto;
+	}
+
+	.left {
+		width: 478px;
+	    text-align: left;
+	    display: inline-block;
+	    margin-left: 100px;
+	}
+	
+	.content {
+		margin-left: 10%;
+		width: 48%;
+
+	}
+
+	.connect {
+		margin-right: 10%;
+		width: 27%;
+	}
+
+	#headshot {
+		float: none;
+	    margin-left: 53px;
+	    width: 300px;
+	}
+
+	.img-txt-1 {
+		margin-left: 78px;
+	}
+
+	footer {
+		position: inherit;
+	}
+
+}
+
+/*(reponsive) resize when on screen with max width 768px*/
+@media screen and (max-width: 768px) {
+
+	#headshot {
+		float: left;
+		margin: 20px;
+
+	}
+
+	.img-txt-1 {
+		margin: 15px;
+	}
+	
+	.right {
+		width: 359px;
+	}
+
+	.left {
+		width: 276px;
+	    margin-left: 20px;
+	}
+
+	.content, .connect {
+		width: auto;
+    	margin: 20px;
+    	float: none;
+ 		text-align: left;
+	}
+
+	.img-txt-1 {
+		margin-left: 20px;
+	}
+
+	.img-txt-1 img {
+		width: 297px;
+	}
+
+}
+
+/*(reponsive) resize when on screen with max width 640px*/
+@media screen and (max-width: 640px) {
+
+	.header-text {
+		position: static;
+	}
+
+	.left {
+		width: 100%;
+	    background-color: #4aaaa5;
+	    text-align: center;
+	    margin: 0 auto;
+	}
+
+	.right {
+		width: 100%;
+		text-align: center;
+	    margin: 0 auto;
+	    padding: 20px;
+
+	}
+
+	.img-txt-1 {
+		margin-left: 20px;
+	}
+
+	.img-txt-1 img {
+		width: 495px;
+	}
+
+	#headshot {
+		float: none;
+		margin-left: 20px;
+		width: 483px;
+	}
+
+	footer {
+		position: inherit;
+	}
+
+	nav {
+		font-size: 20px;
+	}
+
+	nav a {
+		margin: 0 40px 0 40px;
+	}
+
+}
